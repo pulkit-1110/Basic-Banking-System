@@ -35,7 +35,7 @@ if(!$result){
 }
 
 //Adding 10 dummey data into table customers
-$sql ="INSERT INTO `bank`.`customers` (`Cust_ID`, `Name`, `Email`, `Amount`) VALUES ('1', 'harish', 'harish@yahoo.com', '3000.00'), ('2', 'shivam', 'shivam@orkut.com', '10000.00'), ('3', 'niladri', 'niladri@outlook.com', '5000.00'), ('4', 'raj', 'raj@gmail.com', '15000.00'), ('5', 'parkash', 'parkash@rediff.com', '20000.00'), ('6', 'kunal', 'kunal@xyz.com', '3500.00'), ('7', 'rahul', 'rahul@abc.com', '12000.00'), ('8', 'aryan', 'aryan@123.com', '30000.00'), ('9', 'chandan', 'chandan@gmail.com', '23000.00'), ('10', 'vikas', 'vikas@def.com', '40000.00')";
+$sql ="INSERT INTO `bank`.`customers` (`Cust_ID`, `Name`, `Email`, `Amount`) VALUES ('1', 'pulkit', 'pulkit@yahoo.com', '3000.00'), ('2', 'shivam', 'shivam@orkut.com', '10000.00'), ('3', 'niladri', 'niladri@outlook.com', '5000.00'), ('4', 'raj', 'raj@gmail.com', '15000.00'), ('5', 'parkash', 'parkash@rediff.com', '20000.00'), ('6', 'kunal', 'kunal@xyz.com', '3500.00'), ('7', 'rahul', 'rahul@abc.com', '12000.00'), ('8', 'aryan', 'aryan@123.com', '30000.00'), ('9', 'chandan', 'chandan@gmail.com', '23000.00'), ('10', 'vikas', 'vikas@def.com', '40000.00')";
 
 $result = mysqli_query($conn,$sql);
 
